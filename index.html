@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="css/styles.css ">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Lucas Teixeira</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon'></i>home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>Perfil
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bxs-graduation nav__icon'></i>Formação
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon' ></i>Competências
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase nav__icon'></i>Experiências
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificate" class="nav__link">
+                                <i class='bx bx-medal nav__icon' ></i>Certificados
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#interests" class="nav__link">
+                                <i class='bx bxs-joystick-alt nav__icon'></i>Hobbys e Interesses
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+               <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+               </div>
+             
+              
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="imagens/Perfil - CV.jpeg" alt="" class="home__img">
+
+                                <h1 class="home__tittle">Lucas F.<b>Teixeira</b></h1>
+                                <H3 class="home__profession">Coordenador de Inside Sales</H3>
+
+                                <!-- Button to generate and download the pdf. Available for mobile. -->
+                                <div>
+                                    <a download="" href="PDF.CV/myResume.pdf" class="home__button-movil">Download</a>
+                                </div>
+
+                            </div>
+                            <div class="home__adress bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map-pin home__icon'></i> São Paulo, Brasil
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon'></i> lucas18091989@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bxl-whatsapp home__icon'></i> 41-9 9873.6359
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button" ></i>
+
+                        <!--Button Download PDF for Desktop -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" ID="resume-button"></i>
+                        
+    
+                        
+
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">Social</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/lucasfernandesteixeira/" target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon'></i>@lucasfernandesteixeira
+                            </a>
+                            
+                        </div>
+                        
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+                        
+                        <p class="profile__description">
+                            Com mais de 9 anos de experiência na área comercial, grande parte dessa experiência em empresas multinacionais trabalhando exclusivamente com vendas técnicas e consultivas. Durante esse período, tive a oportunidade de participar de cursos internos e externos sobre técnicas de vendas, perfis comportamentais, metodologias e estratégias de análise de mercado. A aplicação desse conhecimento me permitiu alcançar resultados acima da média em todas as posições que ocupei.
+                        </p>
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <section class="education section" id="education"></section>
+                        <h2 class="section-title">Formação</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div> 
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Tecnologia da Informação</h3>
+                                    <span class="education__studies">Instituto Infnet</span>
+                                    <span class="education__year">2023 - 2023</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div> 
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">MBA - Inteligência Corporativa</h3>
+                                    <span class="education__studies">Universidade Opet</span>
+                                    <span class="education__year">2017 - 2018</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div> 
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Publicidade e Propaganda</h3>
+                                    <span class="education__studies">Universidade Positivo</span>
+                                    <span class="education__year">2011 - 2014</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Competências</h2>
+                        
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Arquitetura e Automação de processos
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> SalesForce
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Planejamento estratégico
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Inside Sales
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Idiomas</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Português
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Inglês
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Espanhol
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section" id="interests">
+                        <h2 class="section-title">Hobbys e Interesses</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bxs-invader interests__icon'></i>
+                                <span class="interests__name">Vídeo-game</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bxs-dog interests__icon' ></i>
+                                <span class="interests__name">Pets</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-camera-movie interests__icon'></i>
+                                <span class="interests__name">Filmes, Séries e Animes</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-dumbbell interests__icon' ></i>
+                                <span class="interests__name">Academia</span>
+                            </div>
+                        </div>
+
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experiência</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Coordenador de Inside Sales</h3>
+                                    <span class="experience__company">Fev'22 - Atualmente | Raízen</span>
+                                    <p class="experience__description">Antes de ser um gerente, é importante atuar como um mentor, com foco no desenvolvimento dos profissionais como indivíduos, alinhando as expectativas pessoais dos membros da equipe com as da organização. Liderando uma equipe de SDRs, BDRs e Executivos de Contas, direcionando e melhorando o processo de vendas para facilitar as conquistas individuais e coletivas. Com uma visão de 360 graus da jornada do cliente, tanto externa quanto internamente, direcionando todos os envolvidos para as melhores práticas e soluções possíveis.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Executivo de Contas Senior</h3>
+                                    <span class="experience__company">Nov'21 - Fev'22 | Runrun.it </span>
+                                    <p class="experience__description"></p>
+                                </div>
+
+                            </div>
+
+                            <div class="experience__content">
+                                    <div class="experience__time">
+                                        <span class="experience__rounder"></span>
+                                        <span class="experience__line"></span>
+                                    </div>
+    
+                                    <div class="experience__data bd-grid">
+                                        <h3 class="experience__title">Coordenador de Inside Sales</h3>
+                                        <span class="experience__company">mar'21 - ago'21 | Banco Bari</span>
+                                        <p class="experience__description">Gerenciar uma equipe de 10 consultores comerciais. Desenvolvendo e criando estratégias de vendas para facilitar o crescimento vertical e horizontal dos produtos do portfólio.</p>
+                            </div>
+
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Gerente de Vendas e Operação</h3>
+                                    <span class="experience__company">mai'20 - ago'21 | Grupo Vital</span>
+                                    <p class="experience__description">Migrar uma operação de Call Center para o modelo de Inside Sales. Criando, desenvolvendo e implementando o processo de vendas que atenda esta mudança.</p>
+                                </div>
+
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Coordenador de Inside Sales</h3>
+                                    <span class="experience__company">jan'19 - abr'20 | Grupo Vital</span>
+                                    <p class="experience__description">Liderar um time interno de 12 pessoas, sendo 6 BDRs e 6 Executivos de contas. Desenvolvendo e criando estratégias para cooperar com o crescimento da companhia </p>
+                                </div>
+
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Representante de Vendas</h3>
+                                    <span class="experience__company">nov'12 - dez'18 | Indústria Farmacêutica</span>
+                                    <p class="experience__description">Seis anos de experiência como consultor de campo no segmento farmacêutico. Com essa experiência eu adquiri conhecimento em farmacologia, biologia, anatomia e vendas. Eu tinha como escopo apresentar e vender de forma técnica e consultiva os produtos propagados para médicos, farmacêuticos e outros profissionais da área da saúde. 
+
+                                        Principal conquista: Melhor representante de Dermatologia de Curitiba por dois anos e estava sempre entre os primeiros do ranking nacional. </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificações</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">LGPD e Compliance (2023)</h3>
+                                <p class="certificate__description">Conhecimento comprovado em boas práticas para coleta, tratamento e armazenamento de dados pessoais, além de responsabilidades e obrigações legais para garantir a privacidade e proteção dos dados de clientes. Demonstração de comprometimento com a ética e transparência no uso de informações pessoais.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Sales Leadership (2019)</h3>
+                                <p class="certificate__description">Conhecimento comprovado em técnicas avançadas de liderança, gestão de equipes de vendas e estratégias de motivação para alcançar resultados de excelência. Habilidade em identificar oportunidades de negócios e gerenciar o processo de vendas de forma eficiente, visando o aumento de receita e a fidelização de clientes. Capacidade de liderar equipes de vendas para alcançar metas desafiadoras e criar um ambiente de trabalho produtivo e colaborativo.</p>
+                            </div>
+                        </div>
+                        
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <section class="references section" id="references">
+                        
+                    </section>
+
+
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+
+        <!--========== HTML2PDF ==========-->
+        <script src="JS/html2pdf.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
